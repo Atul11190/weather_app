@@ -1,0 +1,85 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1584267385494-9fdd9a71ad75?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.10);
+    padding: 20px;
+    border-radius: 35px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    width: 400px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+#locationInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px; 
+    backdrop-filter: blur(5px); 
+    color: #fff;
+}
+
+#getWeather {
+    background-color: #00a6ff; 
+    color: #fff;
+    border: none;
+    padding: 12px 20px; 
+    cursor: pointer;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#getWeather:hover {
+    background-color: #9618f7;
+}
+
+#weatherData {
+    margin-top: 20px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.15); 
+    border-radius: 10px; 
+    backdrop-filter: blur(8px); 
+    padding: 15px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px; 
+    margin: 5px 0;
+}
+
+img {
+    max-width: 100px;
+    margin-top: 10px;
+    border: 2px solid #fff; 
+    border-radius: 50%; 
+}
